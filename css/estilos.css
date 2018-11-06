@@ -329,3 +329,70 @@ figure {
   height: inherit;
   flex-wrap: inherit;
 }
+
+
+@media screen  and (max-width: 480px) and (min-width: 320px) {
+
+  body{
+    border:10px solid red;
+  }
+ } 
+
+ @media screen  and (max-width: 768px) and (min-width: 481px) {
+
+  body{
+    border:2px solid blue;
+  }
+
+.header{
+  height: auto;
+}
+  .container{
+  width: 1000px;
+ margin: 0 auto;
+ display: block;
+ justify-content: inherit;
+ align-items: inherit;
+ flex-wrap: inherit;
+ }
+
+.menu{
+  height: auto;
+}
+
+.header ol{
+  display: block;
+}
+
+ } 
+ .header ol li {
+   height: 50px;
+   
+ }
+
+ .header a{
+   justify-content: center;
+ }
+
+ .header .logo{
+  text-align: center
+}
+
+
+ @media screen and (min-width: 769px) {
+
+  body{
+    border:10px solid purple;
+  }
+
+  .container{
+     width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+  }
+ } 
+
