@@ -139,11 +139,11 @@ h2 {
 
 
 .project-details {
-  width: 500px;
+  width: 50%;
 }
 
 .project-imageContainer {
-  width: 500px;
+  width: 50%;
 }
 
 .header {
@@ -341,7 +341,27 @@ figure {
  @media screen  and (max-width: 768px) and (min-width: 481px) {
 
   body{
-    border:2px solid blue;
+    /* border:2px solid blue; */
+  }
+
+  .project{
+    display: block;
+    max-width: 680px;
+    align-content: center;
+  }
+  .project-details{
+    display: inline;
+  
+  }
+
+  .project-description 
+    
+  }
+
+  .project-image{
+    margin-left: 25%;
+    margin-right: 25%;
+    
   }
 
 .header{
@@ -356,8 +376,17 @@ figure {
  flex-wrap: inherit;
  }
 
+ .logo img{
+   height: 70px
+ }
+
 .menu{
   height: auto;
+
+}
+.menu a{
+  height: 35px;
+  font-size: 20px
 }
 
 .header ol{
@@ -375,24 +404,13 @@ figure {
  }
 
  .header .logo{
-  text-align: center
+   text-align: center
+ }
+
+
+
 }
 
 
- @media screen and (min-width: 769px) {
-
-  body{
-    border:10px solid purple;
-  }
-
-  .container{
-     width: 1000px;
-  margin: 0 auto;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  height: inherit;
-  flex-wrap: inherit;
-  }
- } 
+ 
 
